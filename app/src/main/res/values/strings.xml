@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">zakupy</string>
+    <string name="dodaj_do_listy">Dodaj do listy</string>
+    <string name="usu_z_listy">Usuń z listy</string>
 </resources>
