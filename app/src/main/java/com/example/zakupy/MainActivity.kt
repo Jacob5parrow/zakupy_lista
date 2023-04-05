@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 checkBox13.visibility = View.VISIBLE
                 checkBox14.visibility = View.VISIBLE
                 checkBox15.visibility = View.VISIBLE
+
             } else if (checkedId == R.id.removeRadio) {
                 checkBox1.visibility = View.GONE
                 checkBox2.visibility = View.GONE
@@ -124,6 +125,9 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+
+
 
 
 

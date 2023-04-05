@@ -2,4 +2,24 @@
     <string name="app_name">zakupy</string>
     <string name="dodaj_do_listy">Dodaj do listy</string>
     <string name="usu_z_listy">Usuń z listy</string>
+    <string name="kajzerka">kajzerka</string>
+    <string name="chleb_razowy">chleb razowy</string>
+    <string name="rogal">rogal</string>
+    <string name="bu_ka_przenna">bułka przenna</string>
+    <string name="bagietka">bagietka</string>
+    <string name="lista_zakup_w">Lista zakupów</string>
+    <string name="pieczywo">pieczywo</string>
+    <string name="rzodkiewka">rzodkiewka</string>
+    <string name="cebula">cebula</string>
+    <string name="pietruszka">pietruszka</string>
+    <string name="og_rek">ogórek</string>
+    <string name="marchew">marchew</string>
+    <string name="warzywa">warzywa</string>
+    <string name="pol_dwica">polędwica</string>
+    <string name="szynka">szynka</string>
+    <string name="szynka_z_indyka">szynka z indyka</string>
+    <string name="szynka_parme_ska">szynka parmeńska</string>
+    <string name="salami">salami</string>
+    <string name="w_dliny">wędliny</string>
+
 </resources>

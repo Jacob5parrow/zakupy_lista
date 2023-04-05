@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A8A8A8"
     tools:context=".MainActivity">
 
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/kajzerka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -23,7 +24,7 @@
         android:id="@+id/checkBox2"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/chleb_razowy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -35,7 +36,7 @@
         android:id="@+id/checkBox3"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/rogal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -47,7 +48,7 @@
         android:id="@+id/checkBox4"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/bu_ka_przenna"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -59,7 +60,7 @@
         android:id="@+id/checkBox5"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/bagietka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
@@ -71,7 +72,19 @@
         android:id="@+id/checkBox6"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/pol_dwica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:text="@string/salami"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -80,10 +93,10 @@
         app:layout_constraintVertical_bias="0.433" />
 
     <CheckBox
-        android:id="@+id/checkBox7"
+        android:id="@+id/checkBox8"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/szynka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -92,10 +105,10 @@
         app:layout_constraintVertical_bias="0.538" />
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/checkBox9"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/szynka_parme_ska"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -104,37 +117,25 @@
         app:layout_constraintVertical_bias="0.643" />
 
     <CheckBox
-        android:id="@+id/checkBox9"
+        android:id="@+id/checkBox10"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/szynka_z_indyka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.748" />
 
     <CheckBox
-        android:id="@+id/checkBox10"
-        android:layout_width="118dp"
-        android:layout_height="55dp"
-        android:text="CheckBox"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.853" />
-
-    <CheckBox
         android:id="@+id/checkBox11"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/rzodkiewka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.433" />
@@ -143,10 +144,10 @@
         android:id="@+id/checkBox12"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/cebula"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538" />
@@ -155,10 +156,10 @@
         android:id="@+id/checkBox13"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/pietruszka"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.643" />
@@ -167,10 +168,10 @@
         android:id="@+id/checkBox14"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/og_rek"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.748" />
@@ -179,7 +180,7 @@
         android:id="@+id/checkBox15"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:text="CheckBox"
+        android:text="@string/marchew"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.942"
@@ -192,36 +193,103 @@
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122">
+        app:layout_constraintVertical_bias="0.159">
 
-    <RadioButton
-        android:id="@+id/addRadio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/dodaj_do_listy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        <RadioButton
+            android:id="@+id/addRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dodaj_do_listy"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
 
-    <RadioButton
-        android:id="@+id/removeRadio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/usu_z_listy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        <RadioButton
+            android:id="@+id/removeRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usu_z_listy"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.227" />
 
     </RadioGroup>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/lista_zakup_w"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/pieczywo"
+        android:textAlignment="center"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/w_dliny"
+        android:textAlignment="center"
+        android:textColor="#880E4F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/warzywa"
+        android:textAlignment="center"
+        android:textColor="#1B5E20"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
